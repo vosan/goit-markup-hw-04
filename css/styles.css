@@ -384,6 +384,15 @@ button {
   padding: 100px 0;
 }
 
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-logo-container {
+  margin-right: 120px;
+}
+
 .page-footer .logo {
   display: inline-block;
   margin-bottom: 16px;
@@ -398,4 +407,46 @@ button {
   color: var(--cloud);
   letter-spacing: 0.02em;
   max-width: 264px;
+}
+
+.footer-social-container {
+}
+
+.footer-social-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-social-item {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-social-link {
+  width: 100%;
+  height: 100%;
+  background-color: var(--iris);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: #31d0aa;
+}
+
+.footer-social-icon {
+  fill: var(--cloud);
 }
